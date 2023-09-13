@@ -1,0 +1,23 @@
+   Matrix Multilplication   
+   _____________________   
+
+Input Time = 0.004265sec 
+CPU Execution Time (Parallelizable Section) = 0.75821sec 
+GPU Execution Time (Parallelizable Section) = 0.18492sec 
+OUTPUT (File Write OP) Execution Time = 0.163817sec
+
+   Theoritical Performance Analysis using amdahl's law 
+   ____________________________________________________ 
+
+Total CPU Program Time = 0.926292sec 
+Execution Time Parallelizable = 0.75821sec
+Theoritical Performance Increase = 5.51095x 
+
+   Actual Performance Analysis  
+   _____________________________ 
+
+Total GPU Time = 0.353002sec 
+Total CPU Time = 0.926292sec
+Actual Performance Increase  = 2.62404x 
+
+**END** 
